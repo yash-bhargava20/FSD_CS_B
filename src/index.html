@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-100">
+    <h2 class="text-center font-semibold text-2xl mb-4">Register Form</h2>
+    <div class="flex justify-center items-center">
+      <div class="max-w-md w-[400px] bg-white h-[500px] rounded-md shadow-md">
+        <form
+          name="Register"
+          method="post"
+          action="/CreateUser"
+          class="mx-3 pt-5"
+        >
+          <div class="m-2">
+            <h4 class="text-sm mb-2">Username</h4>
+            <input
+              type="text"
+              placeholder="Type Username"
+              class="bg-gray-50 w-full outline-none px-2 py-1 rounded-md focus:ring-1 focus:ring-indigo-600"
+            />
+          </div>
+
+          <div class="p-2">
+            <h4 class="text-sm mb-2">Email</h4>
+            <input
+              type="email"
+              placeholder="Add Email"
+              class="bg-gray-50 w-full outline-none px-2 py-1 rounded-md focus:ring-1 focus:ring-indigo-600"
+            />
+          </div>
+
+          <div class="p-2">
+            <h4 class="text-sm mb-2">Password</h4>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              required
+              class="bg-gray-50 w-full outline-none px-2 py-1 rounded-md focus:ring-1 focus:ring-indigo-600"
+            />
+          </div>
+
+          <div class="p-2">
+            <h4 class="text-sm mb-2">Confirm Password</h4>
+            <input
+              type="password"
+              placeholder="Confirm Password"
+              required
+              class="bg-gray-50 w-full outline-none px-2 py-1 rounded-md focus:ring-1 focus:ring-indigo-600"
+            />
+          </div>
+
+          <div class="mt-5 flex justify-center items-center">
+            <button
+              type="submit"
+              class="text-white bg-indigo-500 px-2 py-1 w-full rounded-md focus:ring-2 hover:bg-indigo-400"
+            >
+              Register
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-const uname = document.getElementById("unmae").value;
+const uname = document.getElementById("uname").value;
 const pass = document.getElementById("pass").value;
 
 const validate = (e) => {

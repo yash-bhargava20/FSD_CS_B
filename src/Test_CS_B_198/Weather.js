@@ -20,6 +20,7 @@ async function getWeatherReport() {
       "Error in fetching data";
   }
 }
+getWeatherReport();
 const displayWeatherData = (data) => {
   const weatherDetails = `
     <h2>Weather in ${data.name}</h2>
